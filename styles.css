@@ -1,3 +1,84 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
 body {
-  background-color: #60d9f1;
+	background-color: gray;
+}
+/*.coolpic {
+  background-image: url(highfidelity2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+#coolpic img {
+	width: 60vw;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	border-color: gray;
+	border-style: solid;
+	border-width: 5px;
+}
+#coolpic {
+	padding-left: 10vw;
+	padding-right: 10vw
+}
+.container {
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	min-height: 100vh;
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+}
+.player {	text-align: center;}
+.musicBox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	opacity: 0;
+}
+.musicBoxvisible {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	opacity: 100;
+}
+.search {
+	text-align: center;
+	width: 100%;
+}
+input {
+	font-size: 30px;
+	width: 60%;
+}
+#results {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%
+}
+#results img {
+ width: 100%;
+ border-radius: 50%;
+}
+.title {
+	font-size: 15px;
+	text-align: center;
+}
+.username {
+font-size: 10px;
+text-align: center;
+}
+.song {
+	margin: 20px 10px 10px 10px;
+}
+#header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+@media (max-width: 769px) {
+	#results {
+			grid-template-columns: 100%
+	}
+	.container {width: 100vw}
 }

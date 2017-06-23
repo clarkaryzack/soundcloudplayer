@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SoundCloud Music Search</title>
+  <title>Music Finder</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Really Awesome Music Site</h1>
+		  <div class="container">
+    <header id="header">
+      <h1>What music do you like?</h1>
     </header>
-    <section class="player">
-      <audio id="music-player" controls="controls" src=""></audio>
-    </section>
-    <section class="search">
+		<div id="coolpic">
+			<img src="highfidelity2.jpg" alt="highfidelityimage">
+		</div>
+
+		<section class="search">
       <!-- <form class="search-form"> -->
-      	<input type="text" id="searchBox">
+      	<input type="text" id="searchBox" placeholder="Type what you want here.">
       <!-- </form> -->
     </section>
+    <section class="player">
+      <audio class="musicBox" id="music-player" controls="controls" src=""></audio>
+    </section>
+
     <section id="results"></section>
-  </div>
   <script src="main.js"></script>
+	  </div>
 </body>
 </html>
