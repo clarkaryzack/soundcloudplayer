@@ -75,6 +75,7 @@ resultsection.addEventListener("click",function(a) {
 		} else {
 			musicBox.src = a.target.id + "?client_id=86b6a66bb2d863f5d64dd8a91cd8de94";
 			musicBox.play();
+			
 		}
 	}
 }
